@@ -1,0 +1,999 @@
+@media only screen and (min-width: 600px) {
+    * {
+	margin: 0;
+	padding: 0;
+    letter-spacing: 3px;
+    outline: 0;
+}
+    
+    @font-face {
+    font-family: futura;
+    src: url(FuturaBook.ttf);
+    }
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: futura;
+    color: black;
+    background-color: #FDFAF2;
+}
+    
+header {
+    margin: 20px 40px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.0vw;
+}
+
+    .block {
+        width: 33%;
+    }
+    
+    .block a:hover {
+        color: #FDFAF2;
+        text-decoration: none;
+    }
+    
+    .block p:hover {
+        color: #FDFAF2;
+        cursor: pointer;
+    }
+    
+    .nav {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .email {
+        text-align: right;
+    }
+
+    .nav a {
+        text-align: center;
+        margin: 0px 14px;
+    }
+    
+    
+    .main {
+        margin: 0% 30%;
+        width: 40%;
+        text-align: center;
+   
+    }
+
+    .profile {
+        text-align: left;
+        font-size: 1.1vw;
+        
+    }
+
+    .signature {
+        padding: 1vw 2vw 3vw 0vw;
+        width: 120px;
+        
+    }
+
+    .icon-container {
+        position: absolute;
+        bottom: 0;
+        margin: 2vw 45% 2vw 45%;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon img {
+        width: 1.8vw;
+        margin: 0vw 1vw;
+    }
+
+    .projects-main {
+        width: 80%;
+        margin: 4vw 10% 4vw 10%;
+    }
+
+    .project {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin 4vw 0vw;
+        
+    }
+    
+    .project:hover {
+        color: #FDFAF2;
+    }
+    
+    a:hover{
+        color: #FDFAF2;
+        text-decoration: none;
+    }
+
+    .project-descrip {
+        width: 60%;
+        margin: 3% 20% 0 20%;
+        text-align: center;
+    }
+
+    .project-descrip p {
+        margin: 0px;
+        
+    }
+
+    .project-header {
+        width: 100%;
+        text-align: left;
+        margin: 1vw 0vw 0.5vw 0vw;
+        font-size: 1.8vw;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .project-header a {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 1vw;
+        margin-bottom: .2vw;
+    }
+    
+    .project-icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin: 2vw 0vw 2vw 0vw;
+    }
+    
+    .project-icon img {
+        height: 12vw;
+    }
+    
+        
+    .project-body {
+        width: 90%;
+        margin: 2% 5% 0% 5%;
+    }
+    
+    
+    .project-feature {
+        width: 90%;
+        margin: 2vw 5% 2vw 5%;
+    }
+    
+    .project-picture {
+        width: 70%;
+        margin: 2vw 15% 0vw 15%;
+    }
+    
+    .title-and-back {
+        width: 70%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .back-icon {
+        width: 0.8vw;
+        margin: 0vw 2vw .5vw 0vw;
+    }
+    
+
+@keyframes gradient {
+    50% {color: #70cbff;}
+    80% {color: #ac47ff;}
+    75% {color: #ff426e;}
+    25% {color: #ff0058;}
+    0% {color: #ffe26e;}
+    100% {color: #ffe26e;}
+}
+
+a {
+    color: black;
+    
+}
+
+    a:focus {
+        color: inherit;
+    }
+    
+    
+    
+
+
+.grid {
+    margin: 20px;
+    width: auto;
+    overflow: hidden;
+    margin-top: 0px;
+    
+
+  
+}
+    
+#headerLink:hover {
+    color: #fff;
+    text-decoration: none;
+}
+    
+.filter {
+    margin: 20px 10% 0px 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+button {  
+    width: 100%;
+    background-color: #FDFAF2;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 4px 4px;
+
+}
+
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    border: none; 
+    outline: none;
+    background-color: #FDFAF2;
+
+    padding: 4px 4px;
+    margin: 0% 5%;
+    
+    -moz-border-radius: 0px !important;  /* for mozilla */
+    -webkit-border-radius: 0px !important; /* for safari */
+    border-radius: 0px !important;  /* IE, Chrome, Opera */
+    
+}
+
+button:hover {
+    background-color: inherit;
+    color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #FDFAF2;
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+button:focus {
+    background-color: #FDFAF2;
+    outline: none;
+    text-decoration: none;
+}
+
+    
+.grid-item {
+    width: 24%;
+    margin: 0%;
+    padding: 2%;
+}
+    
+.grid-item:hover {
+
+}
+
+img {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+    
+img:target {
+    display: fixed;
+    background-color: #FDFAF2;
+}
+
+img:active {
+    display: fixed;
+    background-color: #FDFAF2;
+}
+
+.width-2 {
+    width: 49%;
+    margin:0%;
+    padding: 2%;
+}
+    
+#musicPage {
+    margin: 10px 40px 0px 20px;
+    height: 500px;
+    display: flex;
+}
+
+.playlist{
+    
+    margin-top: 30px;
+    width: 25%;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    
+}
+    
+    #booksPage{
+        text-align: center;
+        
+    }
+
+    .books {
+        margin: 40px 20%;
+        padding: 40px;
+        width: 60%;
+        border-width: 0px;
+        border-style: solid;
+        border-color: black;
+        text-align: center;
+
+    }
+ 
+    .fimg {
+        margin-top: 20px;
+        display: none;
+        position: fixed;
+        width: 26%;
+        left: 37%;
+        top: 5%;
+    }
+    
+    .on {
+        display: inline-block;
+        position: fixed;
+    }
+    
+    #img1 {
+        padding: 3px;
+    }
+
+    
+        
+iframe {
+    margin: 10px 0px 0px 0px;
+}
+
+h3 {
+    margin: 0px 20px 5px 20px;
+    display: inline-block;
+    min-width: 250px;
+    font-size: 18px;
+    font-weight: 100;
+    color: black;
+    text-align: left;
+    width: 90%;
+}
+
+ol {
+    margin-bottom: 30px;
+    
+    text-align: center;
+    font-size: 22px;
+    list-style-position: inside;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+    
+    li {
+    font-size: 13px;  
+    margin: 15px;
+    overflow: hidden;
+    list-style: none;
+    
+}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+    
+    header {
+        margin: 20px 40px;
+        vertical-align: middle;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.3vw;
+        color: black;
+    }
+    
+    .main {
+        margin: 0% 25%;
+        width: 50%;
+        text-align: center;
+   
+    }
+    
+    .profile {
+        text-align: left;
+        font-size: 1.3vw; 
+    }
+    
+    .signature {
+        padding: 2vw 2vw 5vw 0vw;
+        width: 110px;    
+    }
+    
+    .icon img {
+        width: 2.5vw;
+        margin: 0vw 2vw;
+    }
+    
+    .icon-container {
+        position: absolute;
+        bottom: 0;
+        margin: 2vw 45% 3vw 45%;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .project-body {
+        width: 90%;
+        margin: 2% 5% 2% 5%;
+        font-size: 1.4vw;
+    }
+    
+    .project-header a {
+        font-size: 1.4vw;
+        margin-bottom: .2vw;
+    }
+    
+    .project-picture {
+        width: 90%;
+        margin: 2vw 5% 0vw 5%;
+    }
+    
+    .project-header a {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 1.2vw;
+        margin-bottom: .2vw;
+    }
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+    
+    header {
+        margin: 20px 40px;
+        vertical-align: middle;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5vw;
+        color: black;
+    }
+
+    .main {
+        margin: 0% 25%;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .profile {
+        text-align: left;
+        font-size: 1.7vw; 
+    }
+    
+    .signature {
+        padding: 2vw 2vw 5vw 0vw;
+        width: 90px;    
+    }
+    
+    .icon img {
+        width: 2.4vw;
+        margin: 0vw 2vw;
+    }
+    
+    .icon-container {
+        position: absolute;
+        bottom: 0;
+        margin: 2vw 45% 3vw 45%;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .project-body {
+        width: 90%;
+        margin: 2% 5% 2% 5%;
+        font-size: 1.7vw;
+    }
+    
+    .project-header a {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 1.5vw;
+        margin-bottom: .2vw;
+    }
+    
+    .project-header a {
+        font-size: 1.4vw;
+        margin-bottom: .2vw;
+    }
+    
+    .project-picture {
+        width: 90%;
+        margin: 2vw 5% 0vw 5%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+    
+    header {
+        margin: 20px 40px;
+        vertical-align: middle;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5vw;
+        color: black;
+    }
+    
+    .main {
+        margin: 0% 20%;
+        width: 60%;
+        text-align: center;
+    }
+    
+    .block {
+        
+    }
+    
+    .profile {
+        text-align: left;
+        font-size: 1.9vw; 
+    }
+    
+    .signature {
+        padding: 2vw 2vw 5vw 0vw;
+        width: 90px;    
+    }
+    
+    .icon img {
+        width: 3vw;
+        margin: 0vw 2vw;
+    }
+    
+    .icon-container {
+        position: absolute;
+        bottom: 0;
+        margin: 2vw 45% 4vw 45%;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    .project-body {
+        width: 90%;
+        margin: 2% 5% 2% 5%;
+        font-size: 2.0vw;
+    }
+    
+    .project-header a {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 1.6vw;
+        margin-bottom: .2vw;
+    }
+    
+    .project-header a {
+        font-size: 1.4vw;
+        margin-bottom: .2vw;
+    }
+    
+    .project-picture {
+        width: 100%;
+        margin: 4vw 0% 0vw 0%;
+    }
+    
+    .project a {
+        width: 65%;
+    }
+    
+    .project-date {
+        text-align: right;
+        width: 35%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        letter-spacing: 2px;
+        font-weight: 100;
+        margin: 0px;
+    
+    }
+    @font-face {
+        font-family: futura;
+        src: url(FuturaBook.ttf);
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    body {
+        height: 100%;
+        width: 100%;
+        font-family: futura;
+        color: black;
+        background-color: #FDFAF2;
+
+    }
+
+    header {
+        margin: 20px 40px;
+        vertical-align: middle;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2vw;
+        color: black;
+    }
+    
+    .block {
+        width: 40vw;
+    }
+    
+    .block a:hover {
+        color: #FDFAF2;
+    }
+    
+    .block p:hover {
+        color: #FDFAF2;
+        cursor: pointer;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+      
+    }
+    
+    .email {
+        display: none;
+    }
+
+    .nav a {
+        text-align: right;
+        margin: 0px 14px;
+        color: black;
+    }
+    
+    .blog, .projects {
+        display: block;
+        text-align: right;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    .main {
+        margin: 0% 15%;
+        width: 70%;
+        text-align: center;
+
+    }
+ 
+    .profile {
+        text-align: left;
+        font-size: 2.8vw;
+        
+    }
+    
+    .signature {
+        padding: 8vw 2.5vw 8vw 0vw;
+        width: 23%;    
+    }
+    
+    .icon-container {
+        margin: 10vw 35% 6vw 35%;
+        width: 30%;
+        display: flex;
+        justify-content: space-between
+    }
+    .icon img {
+        width: 6vw;
+    }
+    
+    
+    .projects-main {
+        width: 80%;
+        margin: 4vw 10% 4vw 10%;
+        font-size: 3.0vw;
+    }
+    
+    .project {
+        display: flex;
+        justify-content: space-between;
+        margin: 4vw 0vw;
+    }
+    
+    .project a {
+        width: 65%;
+    }
+    
+    .project-date {
+        text-align: right;
+        width: 35%;
+    }
+    
+    .project-descrip {
+        width: 80%;
+        margin: 0% 10% 0 10%;
+        text-align: center;
+    }
+
+    .project-descrip p {
+        margin: 0px;
+    }
+
+    .project-header {
+        width: 100%;
+        text-align: left;
+        margin: 1vw 0vw 2vw 0vw;
+        font-size: 4vw;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .project-header a {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 3vw;
+        margin-bottom: .6vw;
+    }
+
+    .project-picture {
+        width: 100%;
+        margin: 2vw 0% 0vw 0%;
+    }
+    
+    
+    .subheader {
+        width: 100%;
+    }
+    .back-icon {
+        width: 5%;
+    }
+    
+    
+    .project-icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin: 2vw 0vw 2vw 0vw;
+    }
+    
+    .project-icon img {
+        height: 26vw;
+        padding: 0px;
+        margin: 6vw 0vw 6vw 0vw;
+    }
+    
+    .project-feature {
+        width: 90%;
+        margin: 2vw 5% 2vw 5%;
+    }
+    
+    .project-picture {
+        width: 100%;
+        margin: 6vw 0% 0vw 0%;
+    }
+    
+    .title-and-back {
+        width: 70%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .back-icon {
+        width: 1.4vw;
+        margin: 0vw 3vw 1.8vw 0vw;
+    }
+
+.filter {
+    margin: 4% 10% 3% 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    text-align: center;
+    font-size: 2.4vw;
+    
+}
+
+a {
+    margin: 0px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    outline-style: none;
+    text-decoration: none;
+}
+
+.grid {
+    width: auto;
+    padding-right: 0;
+    padding-left: 0;
+    clear: both;
+    margin-top: -10px;
+    overflow: hidden;
+}
+
+
+
+    button {  
+        color: black;
+        outline: none;
+        margin: 0px 0px 0px 0px;
+        vertical-align: middle;
+        text-align: center;
+        border: none;
+        background-color: #FDFAF2;
+    }
+    
+    button:focus {
+        color: #FDFAF2;
+        outline: none;
+    }
+    
+    button:active {
+        color: #FDFAF2;
+        border: none;
+    }
+    
+    button: hover {
+        outline: none;
+        color: #FDFAF2;
+       
+    }
+    
+    
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FDFAF2;
+    color: black;
+    float: left;
+    border: none; 
+    outline: 0;
+    width: 22%;
+    
+    padding: 0px 0px;
+    margin: 0% 1%;
+    
+    font-weight: 80;
+    font-size: 3vw
+}
+
+.grid-item {
+    width: 100%;
+    padding: 3% 7%;;
+    
+}
+
+img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+    
+img:target {
+    display: fixed;
+}
+
+img:active {
+    display: fixed;
+
+}
+
+.width-2 {
+    width: 100%;
+}
+
+.playlist {
+    margin: auto;
+    height: 250px;
+    width: auto;
+
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+
+}
+    
+    #booksPage{
+        text-align: center;
+    }
+    
+    .books {
+    margin: 4%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 92%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+        
+    }
+    
+iframe {
+    margin: 10px;
+    
+    float: right;
+}
+    
+li {
+    margin: 15px;
+    margin-left: 20px;
+    font-size: 8px;  
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    
+}
+
+h3 {
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    display: inline-block;
+    
+    font-size: 4vw;
+    font-weight: 100;
+    color: black;
+    text-align: left;
+    width: 90%;
+    border-width: 0px;
+    
+}
+
+ol {
+    color: black;
+    margin: 20px;
+    margin-bottom: 0px;
+    text-align: center; 
+    font-size-adjust: auto;
+    
+    list-style-position: inside;
+    list-style-type: decimal-leading-zero;
+}
+    
+    p {
+        margin: 0px;
+    }
+}
