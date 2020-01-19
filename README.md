@@ -1,2 +1,2 @@
-# samnordle.com
+# snordale.com
 Personal Website and Blog
